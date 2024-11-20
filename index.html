@@ -16,10 +16,10 @@
 <body>
 
     <!-- Navbar part start -->
-    <section id="navbar">
+    <nav class="navbar  navbarbg border-bottom border-body" data-bs-theme="dark">
         <div class="container">
-            <div class="navbar-main">
-                <div class="menu">
+            <div class="navbar-main col-12">
+                <div class="menu col-8">
                     <ul>
                         <li>
                             <a href="#">Home</a>
@@ -31,7 +31,7 @@
                     </ul>
                 </div>
 
-                <div class="icon">
+                <div class="icon col-4">
                     <i class="fa fa-twitter-square" aria-hidden="true"></i>
                     <i class="fa fa-facebook-square" aria-hidden="true"></i>
                     <i class="fa fa-google-plus-official" aria-hidden="true"></i>
@@ -39,72 +39,104 @@
             </div>
 
         </div>
-    </section>
+    </nav>
     <!-- Navbar part end -->
 
-    <!-- Banner Part Start -->
-    <section id="banner">
+    <!-- Banner Part Start  -->
+    <section id="banner" class="d-flex align-items-center py-5">
         <div class="container">
-            <div class="banner-content">
-                <div class="text">
-                    <h2> Want to enjoy your time?</h2>
-                    <h1>We’re here to help.</h1>
-                    <p>We will provide you a enjoyable nature to enjoy with your family or friend</p>
-                    <a href="#">Learn more</a>
-                </div>
-                <div class="image">
-                    <img src="images/people.png" alt="People">
-                </div>
+          <div class="row align-items-center">
+            <div class="col-lg-6">
+              <div class="text">
+                <h2 class="mb-3">Want to enjoy your time?</h2>
+                <h1 class="mb-4">We’re here to help.</h1>
+                <p class="mb-4">We will provide you a enjoyable nature to enjoy with your family or friend.</p>
+                <a href="#" class="btn btn-success">Learn more</a>
+              </div>
             </div>
+            <div class="col-lg-6 text-center text-lg-end">
+              <img src="images/people.png" alt="People" class="img-fluid">
+            </div>
+          </div>
         </div>
-    </section>
+      </section>
+      
+   
 
     <!-- Banner part end -->
 
-    <!-- About part start -->
-    <section id="about">
-        <div class="container">
-            <div class="about-main">
-                <div class="about-item">
-                    <h1>Learn About Us</h1>
-                    <div class="about-img">
-                        <img src="images/about-1.png" alt="about">
-                        <p>A boat club is a sports club serving boat owners, particularly those interested in rowing and yachting, but also kayaking, canoeing, motor boats and other small boats.</p>
-                    </div>
-                    <div class="about-button">
-                        <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>
-                        <a href="#">Find Out More</a>
-                    </div>
+<!-- About part start -->
+<section id="about" class="mt-5 mb-5">
+    <div class="container">
+      <div class="row gy-4">
+        
+        <!-- Card 1 -->
+        <div class="col-md-4">
+          <div class="card h-100">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="images/about-1.png" class="img-fluid rounded-start  h-100 w-100" alt="Learn About Us">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Learn About Us</h5>
+                  <p class="card-text">A boat club is a sports club serving boat owners, particularly those interested in rowing and yachting, but also kayaking, canoeing, motor boats and other small boats.</p>
+                  <div class="about-button d-flex align-items-center gap-2">
+                    <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>
+                    <a href="#" class="text-success fw-bold">Find Out More</a>
+                  </div>
                 </div>
-
-                <div class="about-item">
-                    <h1>Test the Seafood</h1>
-                    <div class="about-img">
-                        <img src="images/about-2.png" alt="about">
-                        <p>Seafood is any form of sea life regarded as food by humans, prominently including fish and shellfish. Shellfish include various species of molluscs, crustaceans, and echinoderms. </p>
-                    </div>
-                    <div class="about-button">
-                        <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>
-                        <a href="#">Find Out More</a>
-                    </div>
-                </div>
-
-                <div class="about-item">
-                    <h1>Free Parking</h1>
-                    <div class="about-img">
-                        <img src="images/about-3.png" alt="about">
-                        <p>Find your perfect parking space using our growing database of thousands of car parks, street and metered parking and even private garages!</p>
-                    </div>
-                    <div class="about-button">
-                        <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>
-                        <a href="#">Contact us</a>
-                    </div>
-                </div>
+              </div>
             </div>
+          </div>
         </div>
-    </section>
-    <!-- About part End -->
-
+  
+        <!-- Card 2 -->
+        <div class="col-md-4">
+          <div class="card h-100">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="images/about-2.png" class="img-fluid rounded-start h-100 w-100" alt="Test the Seafood">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Test the Seafood</h5>
+                  <p class="card-text">Seafood is any form of sea life regarded as food by humans, prominently including fish and shellfish. Shellfish include various species of molluscs, crustaceans, and echinoderms.</p>
+                  <div class="about-button d-flex align-items-center gap-2">
+                    <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>
+                    <a href="#" class="text-success fw-bold">Find Out More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Card 3 -->
+        <div class="col-md-4">
+          <div class="card h-100">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="images/about-3.png" class="img-fluid rounded-start h-100 w-100" alt="Free Parking">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Free Parking</h5>
+                  <p class="card-text">Find your perfect parking space using our growing database of thousands of car parks, street and metered parking, and even private garages!</p>
+                  <div class="about-button d-flex align-items-center gap-2">
+                    <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>
+                    <a href="#" class="text-success fw-bold">Contact us</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+  <!-- About part end -->
     <!-- notice par start -->
 
     <section id="notice">
